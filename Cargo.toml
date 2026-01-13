@@ -29,8 +29,8 @@ debug = true
 lto = true
 
 [dependencies]
-ratatui-core = { version = "0.1.0", default-features = false }
-ratatui-widgets = "0.3.0"
+ratatui-core = {git = "https://github.com/handewo/ratatui.git",  default-features = false }
+ratatui-widgets = {git = "https://github.com/handewo/ratatui.git"}
 unicode-width = "0.2"
 
 [dev-dependencies]
